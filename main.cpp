@@ -4,8 +4,6 @@
 
 #include "Tokenizer.h"
 
-typedef int (*TokenizeFunctions) (std::string program);
-
 void get_tokens(const std::vector<Token>& tokens)
 {
     for (const Token& token : tokens)
