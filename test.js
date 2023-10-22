@@ -13,22 +13,22 @@ let character2 = '5'
 // Preprocessor directives (JS does not have preprocessor directives)
 
 // Reserved words (e.g., if, else, for, while)
-if (true) :
+if (true)
     console.log("condition is true")
-else :
-   console.log("condition is false")
+else
+    console.log("condition is false")
 
 // Operators
-let result = 10 + 5
-let result -= 3
-let result *= 2
-let result /= 4
-let result %= 7
+let result = 10 + 5;
+result -= 3;
+result *= 2;
+result /= 4;
+result %= 7;
 
-# Delimiters (, : = + - * / )
+// Delimiters (, : = + - * / )
 let variable_1 = [1, 2, 3, 4]
 const variable_2 = 20
 
-# Identifiers
+// Identifiers
 let variable_name = "variable"
 const another_name = "another"

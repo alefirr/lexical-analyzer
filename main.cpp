@@ -19,9 +19,9 @@ std::string open_file()
     std::string program;
     std::fstream program_file;
 
-    std::string filePath = "test.txt";
+    std::string filePath = "test.js";
 
-    if (filePath.size() >= 3 && filePath.substr(filePath.size() - 3) == "txt")
+    if (filePath.size() >= 3 && filePath.substr(filePath.size() - 3) == ".js")
     {
         program_file.open(filePath, std::ios::in);
         if (program_file.is_open())
